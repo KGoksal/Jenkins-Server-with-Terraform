@@ -22,4 +22,4 @@ Before you begin, ensure you have:
 1. Clone this repository
 2. Initialize Terraform: **terraform init**
 3. Deploy the Jenkins Server: **terraform apply**
-4. Access Jenkins: Once deployed, Jenkins can be accessed at the following URL: _<public-dns-of-jenkins-server>:8080_
+4. Access Jenkins: Once deployed, Jenkins can be accessed at the following _<public-dns-of-jenkins-server>:8080_
