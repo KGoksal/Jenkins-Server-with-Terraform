@@ -1,0 +1,8 @@
+mykey = "your_key_name"
+ami = "ami-08a0d1e16fc3f61ea"
+region = "us-east-1"
+instance_type = "t3a.medium"
+jenkins_server_secgr = "your-jenkins-server-secgr"
+jenkins-server-tag = "Jenkins Server"
+jenkins-profile = "your-jenkins-profile-tr"
+jenkins-role = "your-jenkins-server-role"
