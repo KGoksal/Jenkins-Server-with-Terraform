@@ -23,3 +23,6 @@ variable "jenkins-profile" {}
 
 // Define the name for the IAM role assigned to the Jenkins server
 variable "jenkins-role" {}
+
+
+// {} means they are placeholder variables that do not have default values and must be provided by the user or through a Terraform variables file (.tfvars) or via the command line
