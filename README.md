@@ -16,7 +16,6 @@ Before you begin, ensure you have:
 - Terraform installed on your local machine.
 
 ## Usage
-
 1. Clone this repository
 2. Initialize Terraform: **terraform init**
 3. Deploy the Jenkins Server: **terraform apply**
@@ -24,7 +23,6 @@ Before you begin, ensure you have:
 
 
 **Resources Created**
-
 - AWS EC2 instance running Amazon Linux 2023 with JDK 11 and specified tools.
 - Custom IAM role and instance profile for Jenkins server access.
 - Security group allowing HTTP (80), SSH (22), and Jenkins web UI (8080) access from anywhere.
