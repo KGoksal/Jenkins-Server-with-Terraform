@@ -12,7 +12,6 @@ This Terraform template deploys a Jenkins Server on an Amazon EC2 instance runni
 
 ## Prerequisites
 Before you begin, ensure you have:
-
 - AWS credentials configured locally or in your environment.
 - Terraform installed on your local machine.
 
