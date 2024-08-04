@@ -102,7 +102,7 @@ managed_policy_arns = [
   "arn:aws:iam::aws:policy/AWSCloudFormationFullAccess",
   "arn:aws:iam::aws:policy/AdministratorAccess"
 ]
-
+}
 resource "aws_iam_instance_profile" "tf-jenkins-server-profile" {
   name = var.jenkins-profile              // Specify the name for the IAM instance profile
   role = aws_iam_role.tf-jenkins-server-role.name // Attach the IAM role created above
