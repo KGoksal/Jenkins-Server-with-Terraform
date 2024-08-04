@@ -19,7 +19,6 @@ Before you begin, ensure you have:
 3. Deploy the Jenkins Server: **terraform apply**
 4. Access Jenkins: Once deployed, Jenkins can be accessed at the following URL: _public-dns-of-jenkins-server:8080_
 
-
 **Resources Created**
 - AWS EC2 instance running Amazon Linux 2023 with JDK 11 and specified tools.
 - Custom IAM role and instance profile for Jenkins server access.
