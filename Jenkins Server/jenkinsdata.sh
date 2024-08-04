@@ -37,3 +37,15 @@ pip3 install boto3 botocore
 # install terraform
 wget https://releases.hashicorp.com/terraform/1.8.5/terraform_1.8.5_linux_amd64.zip
 unzip terraform_1.8.5_linux_amd64.zip -d /usr/local/bin
+
+
+# # install maven
+# wget https://archive.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+# tar -xvzf apache-maven-3.8.6-bin.tar.gz -C /opt
+# ln -s /opt/apache-maven-3.8.6 /opt/maven
+# echo 'export M2_HOME=/opt/maven' >> /etc/profile.d/maven.sh
+# echo 'export PATH=${M2_HOME}/bin:${PATH}' >> /etc/profile.d/maven.sh
+# source /etc/profile.d/maven.sh
+
+# # restart jenkins to apply any changes
+# systemctl restart jenkins
