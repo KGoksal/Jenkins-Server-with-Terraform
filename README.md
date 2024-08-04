@@ -1,5 +1,4 @@
 # Terraform Template: Jenkins Server on AWS EC2
-
 This Terraform template deploys a Jenkins Server on an Amazon EC2 instance running Amazon Linux 2023. The Jenkins server is configured with JDK 11 and includes the following tools:
 - Git
 - Docker and Docker Compose
