@@ -24,7 +24,6 @@ Before you begin, ensure you have:
 - AWS EC2 instance running Amazon Linux 2023 with JDK 11 and specified tools.
 - Custom IAM role and instance profile for Jenkins server access.
 - Security group allowing HTTP (80), SSH (22), and Jenkins web UI (8080) access from anywhere.
-
 **Variables**
 - region: AWS region to deploy the resources.
 - ami: Amazon Machine Image ID for Amazon Linux 2023.
