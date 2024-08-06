@@ -6,7 +6,7 @@ This Terraform template deploys a Jenkins Server on an Amazon EC2 instance runni
 - Python 3
 - Ansible
 - Terraform
-- Boto3
+- Boto3 
 
 ## Prerequisites
 Before you begin, ensure you have:
