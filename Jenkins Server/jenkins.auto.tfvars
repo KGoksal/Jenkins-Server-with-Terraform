@@ -28,6 +28,5 @@ jenkins-profile = "your-jenkins-profile-tr"
 jenkins-role = "your-jenkins-server-role"
 
 
-//jenkins_variable.tf is for defining what variables are needed.
-// jenkins.auto.tfvars is for providing the values for those variables.
+//jenkins_variable.tf is for defining what variables are needed and jenkins.auto.tfvars is for providing the values for those variables.
 // Both files are essential, but jenkins.auto.tfvars will be the one setting the actual values that Terraform uses during execution.
