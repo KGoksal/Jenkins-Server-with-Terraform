@@ -16,7 +16,6 @@ instance_type = "t3a.medium"
 jenkins_server_secgr = "your-jenkins-server-secgr"
 
 // Specify the tag to be applied to the Jenkins server instance
-// Tags help in identifying and managing AWS resources
 jenkins-server-tag = "Jenkins Server"
 
 // Specify the name for the IAM instance profile to be attached to the Jenkins server
