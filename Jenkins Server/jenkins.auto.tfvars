@@ -23,7 +23,7 @@ jenkins-server-tag = "Jenkins Server"
 // The instance profile allows the EC2 instance to assume an IAM role with specific permissions
 jenkins-profile = "your-jenkins-profile-tr"
 
-// Specify the name of the IAM role that will be assigned to the Jenkins server
+// Specify the name of the IAM role that will be assigned to the Jenkins server. 
 // This role will grant the necessary permissions for the Jenkins server to interact with other AWS services
 jenkins-role = "your-jenkins-server-role"
 
