@@ -19,7 +19,6 @@ jenkins_server_secgr = "your-jenkins-server-secgr"
 jenkins-server-tag = "Jenkins Server"
 
 // Specify the name for the IAM instance profile to be attached to the Jenkins server
-// The instance profile allows the EC2 instance to assume an IAM role with specific permissions
 jenkins-profile = "your-jenkins-profile-tr"
 
 // Specify the name of the IAM role that will be assigned to the Jenkins server. 
