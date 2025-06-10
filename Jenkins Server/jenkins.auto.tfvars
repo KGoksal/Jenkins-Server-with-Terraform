@@ -22,7 +22,7 @@ jenkins-server-tag = "Jenkins Server"
 jenkins-profile = "your-jenkins-profile-tr"
 
 // Specify the name of the IAM role that will be assigned to the Jenkins server. 
-// This role will grant the necessary permissions for the Jenkins server to interact with other AWS services
+
 jenkins-role = "your-jenkins-server-role"
 
 
