@@ -6,11 +6,9 @@ mykey = "your_key_name"
 ami = "ami-08a0d1e16fc3f61ea"
 
 // Specify the AWS region where the Jenkins server will be deployed
-
 region = "us-east-1"
 
 // Specify the EC2 instance type for the Jenkins server
-// Example: t2.micro for low-cost, t3a.medium for more performance
 instance_type = "t3a.medium"
 
 // Specify the name for the security group associated with the Jenkins server
